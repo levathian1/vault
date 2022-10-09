@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1913c9c245b116da",
+        "id": "1ecd9cbc22070d8d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2022-10-09.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-10-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-10-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2022-10-09.md"
-              }
+              "state": {}
             }
           },
           {
@@ -135,10 +127,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1913c9c245b116da",
+  "active": "31b8b888d3ed1e1b",
   "lastOpenFiles": [
-    "2022-10-08.md",
     "Template.md",
+    "adadasd.md",
+    "2022-10-09.md",
+    "2022-10-08.md",
     "2022-10-07.md",
     "Website/Project Outline.md",
     "Website/Kanban.md"
