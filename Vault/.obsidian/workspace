@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "337aea40eb671460",
+    "type": "split",
+    "children": [
+      {
+        "id": "1913c9c245b116da",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2022-10-09.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72b9cad0869ca51c",
+    "type": "split",
+    "children": [
+      {
+        "id": "69eca0bb313f49af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31b8b888d3ed1e1b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d83e1ab6a3c405a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "64641065af678ba7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "da8592b3d6648ad8",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfba7146489e3a4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fff082bbcec8e992",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022-10-09.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d69653f3f529d578",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2022-10-09.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4510057452db0c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f297ed5245f3965e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022-10-09.md"
+              }
+            }
+          },
+          {
+            "id": "0d35b44647d165c6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "1913c9c245b116da",
+  "lastOpenFiles": [
+    "2022-10-08.md",
+    "Template.md",
+    "2022-10-07.md",
+    "Website/Project Outline.md",
+    "Website/Kanban.md"
+  ]
+}
