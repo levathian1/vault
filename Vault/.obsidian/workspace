@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1ecd9cbc22070d8d",
+        "id": "cb0fe4268557f1a7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Daily Notes/2022-10-16.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Notes/2022-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily Notes/2022-10-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily Notes/2022-10-16.md"
+              }
             }
           },
           {
@@ -127,14 +135,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "31b8b888d3ed1e1b",
+  "active": "cb0fe4268557f1a7",
   "lastOpenFiles": [
-    "Template.md",
-    "adadasd.md",
-    "2022-10-09.md",
-    "2022-10-08.md",
-    "2022-10-07.md",
+    "Daily Notes/2022-10-16.md",
+    "Excalidraw/Drawing 2022-10-16 12.43.03.excalidraw.md",
+    "Weekly Notes/Kanban.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Website/Kanban.md",
+    "Templates/Template - Weekly.md",
+    "Templates/Template - Daily.md",
     "Website/Project Outline.md",
-    "Website/Kanban.md"
+    "Daily Notes/2022-10-07.md"
   ]
 }
