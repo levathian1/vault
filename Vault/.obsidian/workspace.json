@@ -11,21 +11,9 @@
             "id": "cb0fe4268557f1a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Templates/Template - Daily.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d24315814d46561",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
+                "file": "Projects/Website/Kanban.md"
               }
             }
           }
@@ -95,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Template - Daily.md",
+                "file": "Projects/Website/Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Template - Daily.md",
+                "file": "Projects/Website/Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Template - Daily.md"
+                "file": "Projects/Website/Kanban.md"
               }
             }
           },
@@ -158,15 +146,15 @@
   },
   "active": "cb0fe4268557f1a7",
   "lastOpenFiles": [
-    "Daily Notes/2022-10-16.md",
-    "Excalidraw/Drawing 2022-10-16 12.43.03.excalidraw.md",
-    "Weekly Notes/Kanban.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Website/Kanban.md",
-    "Templates/Template - Weekly.md",
-    "Templates/Template - Daily.md",
-    "Website/Project Outline.md",
-    "Daily Notes/2022-10-07.md"
+    "Projects/Website/Project Outline.md",
+    "Projects/Website/Kanban.md",
+    "Projects/Web - Twitch, Youtube bot/Kanban.md",
+    "Projects/Software - Market Prices/Kanban.md",
+    "Projects/Research Project - Outline recognition/Kanban.md",
+    "Projects/Keypad - 2key Variant/Kanban.md",
+    "Projects/Keycap - Arcade/Kanban.md",
+    "Projects/Game - Fantasy Gokart Manager/Kanban.md",
+    "Projects/Animation/Kanban.md",
+    "Daily Notes/2022-10-16.md"
   ]
 }

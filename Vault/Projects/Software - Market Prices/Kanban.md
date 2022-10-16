@@ -4,20 +4,18 @@ kanban-plugin: basic
 
 ---
 
-## todo
+## TODO
+
+- [ ] Monthly price scraping
+- [ ] Scraping modes
+- [ ] GUI
 
 
-
-## doing
+## Doing
 
 
 
 ## Done
-
-**Complete**
-
-
-## Next Iteration
 
 
 
