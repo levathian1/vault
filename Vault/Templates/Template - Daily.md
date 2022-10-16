@@ -17,7 +17,7 @@ Date: {{date:MMM d, YYYY}}
 - [ ] Look for jobs / work placements
 - [ ] Twitter / Instagram post
 - [ ] Chess Game
-- [ ] Leetcode Question
+- [ ] Leetcode/Codeforces Question
 - [ ] Vulkan Engine Function
 - [ ] Manga Translation
 - [ ] Composing
