@@ -6,13 +6,13 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Monthly price scraping
 - [ ] Scraping modes
 - [ ] GUI
 
 
 ## Doing
 
+- [ ] Monthly price scraping
 
 
 ## Done
