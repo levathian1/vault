@@ -6,15 +6,20 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] Uninstall other obsidian instance
-- [ ] Call insurance
+- [ ] Game
 
 
 ## Doing
 
+- [ ] Raycaster
 
 
 ## Done
+
+**Complete**
+
+
+## Raycaster
 
 
 
