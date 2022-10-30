@@ -1,7 +1,7 @@
 
 # {{title}}
 
-Date: {{date:MMM d, YYYY}}
+Date: {{date:MMM dd, YYYY}}
 
 ---
 
