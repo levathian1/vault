@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cb0fe4268557f1a7",
+            "id": "5b2757ce7373a8fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2022-10-29.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b030539a549c348d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2022-10-30.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27725c4a4c8760e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2022-10-30.md",
+                "file": "Papers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2022-10-30.md",
+                "file": "Papers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2022-10-30.md",
+                "file": "Papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2022-10-30.md"
+                "file": "Papers.md"
               }
             }
           },
@@ -168,17 +143,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "27725c4a4c8760e8",
+  "active": "5b2757ce7373a8fc",
   "lastOpenFiles": [
+    "jobs.md",
+    "Projects/Software - Market Prices/Stuff.md",
+    "Daily Notes/2022-11-06.md",
     "Templates/Template - Daily.md",
-    "Templates/Template - Weekly.md",
-    "Daily Notes/2022-10-30.md",
-    "Complete Tasklist + Routines.md",
-    "Daily Notes/2022-10-17.md",
-    "Daily Notes/2022-10-07.md",
-    "Daily Notes/2022-10-09.md",
-    "Daily Notes/2022-10-29.md",
+    "Projects/Website/Stuff.md",
+    "Projects/Website/Project Outline.md",
+    "Projects/Website/Kanban.md",
+    "Projects/Web - Twitch, Youtube bot/Kanban.md",
     "Projects/Software - Market Prices/Project Overview.md",
-    "Projects/Software - Market Prices/Kanban.md"
+    "Projects/Research Project - Colour blocking/Stuff.md"
   ]
 }
