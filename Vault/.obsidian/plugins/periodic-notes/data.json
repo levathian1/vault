@@ -6,13 +6,13 @@
     "format": "",
     "template": "Templates/Template - Daily.md",
     "folder": "Daily Notes",
-    "enabled": true
+    "enabled": false
   },
   "weekly": {
     "format": "",
     "template": "Templates/Template - Weekly.md",
     "folder": "Weekly Notes",
-    "enabled": true
+    "enabled": false
   },
   "monthly": {
     "format": "",

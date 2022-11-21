@@ -42,11 +42,15 @@
             }
           },
           {
-            "id": "fa311416d913796c",
+            "id": "8de0d7b60773dd6b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -128,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           },
           {
@@ -182,17 +190,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "31b8b888d3ed1e1b",
+  "active": "8de0d7b60773dd6b",
   "lastOpenFiles": [
-    "Untitled.md",
     "Daily Notes/2022-11-16.md",
+    "conflict-files-obsidian-git.md",
+    "Daily Notes/2022-11-21.md",
+    "Untitled.md",
     "Daily Notes/2022-10-07.md",
     "Weekly Notes/Kanban.md",
     "Daily Notes/2022-10-26.md",
     "Projects/Software - Market Prices/Project Overview.md",
     "Daily Notes/2022-10-20.md",
-    "Daily Notes/2022-10-18.md",
-    "Projects/Software - Market Prices/Kanban.md",
-    "Projects/Game - Fantasy Gokart Manager/Kanban.md"
+    "Daily Notes/2022-10-18.md"
   ]
 }
