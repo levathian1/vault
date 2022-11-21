@@ -23,10 +23,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Software - Market Prices/Project Overview.md",
+                "file": "Daily Notes/2022-11-14.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "a4b055bb9d4f53ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2022-11-16.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa311416d913796c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -42,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +128,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Software - Market Prices/Project Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +144,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Software - Market Prices/Project Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +165,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/Software - Market Prices/Project Overview.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,20 +182,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "271060e9a1a6e241",
+  "active": "31b8b888d3ed1e1b",
   "lastOpenFiles": [
-    "Projects/Software - Market Prices/Kanban.md",
-    "Projects/Game - Fantasy Gokart Manager/Kanban.md",
-    "Projects/Game Jam - 32bit Jam/Project overview.md",
-    "Projects/Game Jam - 32bit Jam/Kanban.md",
-    "Daily Notes/2022-10-17.md",
-    "Weekly Notes/Kanban.md",
-    "Daily Notes/2022-10-16.md",
-    "Daily Notes/2022-10-09.md",
+    "Untitled.md",
+    "Daily Notes/2022-11-16.md",
     "Daily Notes/2022-10-07.md",
-    "Projects/Website/Kanban.md"
+    "Weekly Notes/Kanban.md",
+    "Daily Notes/2022-10-26.md",
+    "Projects/Software - Market Prices/Project Overview.md",
+    "Daily Notes/2022-10-20.md",
+    "Daily Notes/2022-10-18.md",
+    "Projects/Software - Market Prices/Kanban.md",
+    "Projects/Game - Fantasy Gokart Manager/Kanban.md"
   ]
 }
