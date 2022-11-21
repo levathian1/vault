@@ -138,3 +138,10 @@ https://arxiv.org/pdf/2211.10431.pdf
 https://arxiv.org/pdf/2211.10371.pdf
 
 https://arxiv.org/pdf/2211.10352.pdf
+
+https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-022-00865-y
+
+https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-022-00868-9
+
+https://www.bmj.com/content/379/bmj-2022-071707
+
