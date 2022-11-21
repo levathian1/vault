@@ -54,9 +54,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20076d6ff1c79464",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "cfc7e46bb193d415",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers to read.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers to read.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers to read.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -180,8 +200,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "ae8892b0362a3ae3",
+  "active": "cfc7e46bb193d415",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Papers to read.md",
     "Daily Notes/2022-11-21.md",
     "Daily Notes/2022-11-06.md",
     "Daily Notes/2022-10-30.md",
@@ -189,8 +211,6 @@
     "Templates/Template - Weekly.md",
     "Complete Tasklist + Routines.md",
     "Daily Notes/2022-10-17.md",
-    "Daily Notes/2022-10-07.md",
-    "Daily Notes/2022-10-09.md",
-    "Daily Notes/2022-10-29.md"
+    "Daily Notes/2022-10-07.md"
   ]
 }

@@ -3,14 +3,14 @@
 
 ## Homework:
 CPOA:
-- [ ] Premiere Iteration 📅 2022-11-05
+- [x] Premiere Iteration 📅 2022-11-05 ✅ 2022-11-06
 Dev Mobile
-- [ ] 1.0 ⏳ 2022-11-05
+- [x] 1.0 ⏳ 2022-11-05 ✅ 2022-10-31
 Logique
 - [ ] Exercices du TD
 - [ ] Exercice 4, 5 examen
 CMBD
-- [ ] Conception Base pour CPOA ⏳ 2022-11-05
+- [x] Conception Base pour CPOA ⏳ 2022-11-05 ✅ 2022-11-06
 Algo
 - [ ] Implementation Graph
 - [ ] Implementation Parcours de Graph
@@ -19,24 +19,19 @@ Prog Web
 
 ## Programming:
 Game Off:
-- [ ] Scoping when Jam starts 🛫 2022-11-01
 Steam Market Price Grabber:
-- [ ] GUI ⏳ 2022-11-05
 - [ ] Monthly Price Grabbing 📅 2022-11-12 
+- [ ] GUI
 Picture Conversion:
-- [ ] Algo to block and simplify colours 📅 2022-11-12
-
-# Routines
-
-## Piano:
-- Come up with practice routine (10 min)
-
-## Guitar:
-- Come up with practice routine (10 min)
-
-## Chess:
-- 2 Games 
-- Game Analysis
-- Blunder Correction
-- Puzzles
-- Openings
+- [x] Algo to block and simplify colours 📅 2022-11-12 ✅ 2022-11-02
+Website
+- [ ] Home page design📅 2022-12-10
+Game:
+- [x] Scoping: Gokart manager 📅 2022-11-05 ✅ 2022-11-02
+- [ ] Race Sim📅 2022-12-03
+Keycap:
+- [ ] Arcade example 📅2022-11-19
+Keyboard:
+- [ ] 3x3 Matrix (handwired)   📅 2022-11-26
+Animation:
+- [ ] 1-1 📅 2022-12-17
