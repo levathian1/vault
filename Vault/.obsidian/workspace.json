@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers to read.md",
+                "file": "Projects/CPOA - Projet/TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers to read.md",
+                "file": "Projects/CPOA - Projet/TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers to read.md",
+                "file": "Projects/CPOA - Projet/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers to read.md"
+                "file": "Projects/CPOA - Projet/TODO.md"
               }
             }
           },
@@ -180,15 +180,15 @@
   },
   "active": "a4b055bb9d4f53ba",
   "lastOpenFiles": [
-    "Papers.md",
+    "Daily Notes/2022-11-23.md",
     "Papers to read.md",
+    "Papers.md",
     "jobs.md",
     "Daily Notes/2022-11-16.md",
     "Untitled.md",
     "conflict-files-obsidian-git.md",
     "Daily Notes/2022-11-21.md",
     "Daily Notes/2022-10-07.md",
-    "Weekly Notes/Kanban.md",
-    "Daily Notes/2022-10-26.md"
+    "Weekly Notes/Kanban.md"
   ]
 }
