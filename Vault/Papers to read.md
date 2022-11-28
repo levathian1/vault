@@ -139,6 +139,7 @@ https://arxiv.org/pdf/2211.10371.pdf
 
 https://arxiv.org/pdf/2211.10352.pdf
 
+<<<<<<< HEAD
 https://arxiv.org/pdf/2211.10353.pdf
 
 https://arxiv.org/pdf/2211.10349.pdf
@@ -396,3 +397,11 @@ https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-022-00870-1
 https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-022-00888-5
 
 https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-022-00899-2
+=======
+https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-022-00865-y
+
+https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-022-00868-9
+
+https://www.bmj.com/content/379/bmj-2022-071707
+
+>>>>>>> origin/main
