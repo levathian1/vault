@@ -1,0 +1,114 @@
+
+- Totoro
+- Athena
+- Benetton
+- Asuka
+- Hungarian Parliament
+- Luna x Tofu
+- https://www.thingiverse.com/thing:4803391
+- Chibi Rebecca - Mini
+- https://www.thingiverse.com/thing:4798457
+- Chibi Calcifer - Mini
+- https://www.thingiverse.com/thing:4532130
+- Lucy x David - Fullsize
+- https://www.thingiverse.com/thing:1788615
+- Eva-01 - Fantasy
+- https://www.thingiverse.com/thing:3793786
+- Spider Gwen - Lamp model
+- https://www.thingiverse.com/thing:5155017
+- Chibi Dark Magician - Mini
+- https://www.thingiverse.com/thing:4788763
+- Chibi Bulbasaur - Mini
+- https://www.myminifactory.com/object/3d-print-helsinki-cathedral-55656
+- Sorceress - Fantasy
+- https://www.thingiverse.com/thing:4791279
+- Booette - Lamp Model
+- https://www.thingiverse.com/thing:4788581
+- Zhazel - Model
+- https://www.thingiverse.com/thing:4789454
+- Chibi Midna - Mini
+- https://www.thingiverse.com/thing:3920505
+- Chibi cat - Mini
+- https://www.thingiverse.com/thing:3609868
+- Kratos - Lamp Model
+- https://www.thingiverse.com/thing:1513508
+- Loid - Model
+- https://www.thingiverse.com/thing:268090
+- Valrie - Model
+- https://www.thingiverse.com/thing:4792602
+- Chibi Chell - Mini
+- https://www.myminifactory.com/object/3d-print-church-of-st-sava-serbia-68989
+- Chibi Cerberus - Mini
+- https://www.thingiverse.com/thing:4800112
+- 2b - Model
+- https://www.thingiverse.com/thing:4801717
+- Saitama - Model
+- https://www.thingiverse.com/thing:3624811
+- Roy Mustang - Lamp Model
+- https://www.thingiverse.com/thing:3538862/makes
+- Kirby - Lamp Model
+- https://www.thingiverse.com/thing:1068688
+- Zelda - Model
+- https://www.thingiverse.com/thing:1718631
+- Yor - Model
+- https://www.myminifactory.com/object/3d-print-birmingham-cathedral-alabama-77055
+- Kaneda - Mini
+- https://www.thingiverse.com/thing:22656
+- Guts - Model
+- https://www.thingiverse.com/thing:4794232
+- Leafon - Mini
+- https://www.thingiverse.com/thing:1449187
+- Chibi Anya - Mini
+- https://www.thingiverse.com/thing:4827471
+- Dva - Model
+- https://www.thingiverse.com/thing:158120
+- Vash - Lamp Model
+- https://www.thingiverse.com/thing:5266000
+- Chibi Wind Waker Link - Mini
+- https://www.myminifactory.com/object/3d-print-denver-cathedral-43605
+- Ranni the Witch - Lamp Model
+- https://www.thingiverse.com/thing:4799421
+- Warhammy - Model
+- https://www.thingiverse.com/thing:4790896
+- Chibi Chihiro haku - Mini
+- https://www.thingiverse.com/thing:4825188
+- Mononoke - Lamp Model
+- https://github.com/ploopyco/mini-trackball
+- Mail Moogle - Mini
+- https://www.thingiverse.com/thing:2446611
+- Ori and Naru - Lamp Model
+- https://www.thingiverse.com/thing:3400357
+- Bloodfallen - Model
+- https://www.thingiverse.com/thing:2752036
+- Vi from Arcane - Model
+- https://www.myminifactory.com/object/3d-print-barad-dur-the-dark-tower-84361
+- Alita - Model
+- https://www.thingiverse.com/thing:478422
+- Chibi Big Daddy - Mini
+- https://www.thingiverse.com/thing:2908184/files
+- Alphonse - Model
+- https://www.thingiverse.com/thing:2848814
+- Ekko - Model
+- https://www.thingiverse.com/thing:1660366/makes
+- Chibi Samus - Mini
+- https://www.thingiverse.com/thing:2451310
+- Jinx - Model
+- https://www.thingiverse.com/thing:1005424
+- Winry - Model
+- https://www.thingiverse.com/thing:2278247
+- MMF - Nebula Starter Set
+- https://www.thingiverse.com/thing:2446611
+- MMF - Exo Marine Sample
+- https://www.thingiverse.com/thing:3025648
+- MMF - ZBS Free Sample
+- https://cults3d.com/en/3d-model/game/disorganized-mr-snuffleupagus-emang
+- MMF - Birchwood Vale Heroes Blademaster
+- https://www.myminifactory.com/fr/object/3d-print-colosseum-selfcad-121035
+- MMF - Birchwood Mallakson
+- https://www.thingiverse.com/thing:4628954
+- MMF - Sypha
+- https://www.thingiverse.com/thing:3715933
+- MMF - Centaur
+- https://www.myminifactory.com/object/3d-print-ford-fiesta-rs-wrc-41514
+- MMF - Mini Mechanica
+- https://www.thingiverse.com/thing:2657310
