@@ -12,6 +12,8 @@ OCaml: cast explicite necessaire (ex: addition de deux flottants et deux entiers
 
 Has type inference [[https://en.wikipedia.org/wiki/Type_inference]]
 
+a' -> function will use return type of whatever function it depends on
+
 Comments -> (* comment *)
 
 ## Creer fonctions a la volee
