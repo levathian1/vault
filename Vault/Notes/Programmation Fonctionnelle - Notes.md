@@ -1,4 +1,4 @@
-https://en.wikipedia.org/wiki/Functional_programming
+[[https://en.wikipedia.org/wiki/Functional_programming]]
 
 # 10/01/2023
 

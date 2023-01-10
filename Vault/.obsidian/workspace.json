@@ -137,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -153,7 +154,7 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "5d8b0e5514adb1f2",
+  "active": "d69653f3f529d578",
   "lastOpenFiles": [
     "ZZZ - Dump.md",
     "Notes/Programmation Fonctionnelle - Notes.md",
