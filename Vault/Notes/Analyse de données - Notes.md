@@ -87,3 +87,86 @@ rstudio
 
 objet = vecteur
 
+
+# 11/01/2023
+
+## Rappel des Statistiques
+
+### [[Statistique descriptive]]
+	Vocab:
+		1. Population
+		2. Individu
+		3. Variable/feature
+			- qualitative
+				- discrete
+				- continues
+			- quantitative
+		 frequence = ni/n
+		4. Modalite
+		5. Echantillon
+	Pour etudier un caractere X avec des valeurs d'un ensemble sur une population P
+	Mediane: **def**
+	Quantile (empirique): **def**
+#### Formules
+Moyenne (empirique): **formula**
+Variance (empirique): **formula**
+Ecart type (empirique): **formula**
+Frequence cumuleee (somme de toutes les frequences): **formula**
+Repartition empirique: **formula**
+Covariance(empirique): **formula**, **proprietes**, plus grande est la valeur, plus les deux proprietes sont lies
+Correlation lineaire: **formula**
+
+Correlation != causalite
+
+
+	
+### [[Statistical Inference]]
+
+## Probabilite
+
+### Definitions
+Variables aleatoires
+	1. discrete
+	2. continues
+
+### Loi d'une variable aleatoire discrete
+
+### Densite et fonction de repartition d'une variable continue
+
+### Formules
+Probabilite conditionnelle: **formula**
+Theoreme de Bayes: **formula**
+Esperence discrete: **formula**
+Esperence continue: **formula**
+Variance: **formula**
+Ecart type: **formula**
+
+#### Proprietes Esperence
+
+#### Proprietes Variance
+
+### Variable centree reduite
+Formule: **formula**
+
+### Lois
+- Loi normale
+- Loi exponentielle
+- loi de Ki sq
+- loi de Student
+
+### Estimation parametrique
+1. Estimation ponctuelle
+2. Estimation par intervalle de confiance
+
+#### Tests statistiques
+
+
+
+
+
+diap 9/10:  (1)comment le choix des classes est-il fait, (2)comment sont determinees les intervalles? 
+(1): doit representer le domaine etudie
+(2): emplitude de l'echantillon
+diap 55: important -> Souvent, cette hypothèse est le contraire ce que l’on cherche à prouver (raisonnement par l’absurde)
+diap 60: overlap entre les deux courbes = zone de confusion
+
