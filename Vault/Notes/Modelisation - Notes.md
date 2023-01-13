@@ -80,4 +80,4 @@ Preuve: deux cas:
 	- debut[u] < debut[v]. Au moment de l'appel a dfs[u], il existe une arete de u a v, qui sont tous les deux **blancs**, donc un chemin blanc entre u et v et donc v va etre visité lors de l'appel dfs(u) ce qui implique que fin[u] > fin[v]
 
 ### 2.2 Classification des aretes
-Theoreme 2.3: G un DAG, s un sommet. Soit V' l'ensemble des sommets qui deviennent noirs a l'appel de dfs(s). E' l'ensemble des aretes qui ont conduit a un appel de dfs(w). Alors G' = (V', E') est un **arbre**, ou les fleches pointent a l'opposé de s(racine) . Si on appelle dfs sur tout les sommets non visités, les aretes forment une foret.
+Theoreme 2.3: G un DAG, s un sommet. Soit V' l'ensemble des sommets qui deviennent noirs a l'appel de dfs(s). E' l'ensemble des aretes qui ont conduit a un appel de dfs(w). Alors G' = (V', E') est un **arbre**, ou les fleches pointent a l'opposé de s(racine) . Si on appelle dfs sur tout les sommets non visités, les aretes forment une foret, appelee foret d'exploration du graphe.
