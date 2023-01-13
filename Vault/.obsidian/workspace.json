@@ -42,9 +42,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "62c1b48e56b7c27c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ZZZ - Dump.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53c653f3b9d52914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Modelisation - Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29b8f34b38de579e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recuperer son compte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "da8592b3d6648ad8",
@@ -110,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Analyse de données - Notes.md",
+                "file": "Notes/Modelisation - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Analyse de données - Notes.md",
+                "file": "Notes/Modelisation - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Analyse de données - Notes.md"
+                "file": "Notes/Modelisation - Notes.md"
               }
             }
           },
@@ -179,17 +216,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "48dc64c96746bbbb",
+  "active": "53c653f3b9d52914",
   "lastOpenFiles": [
-    "Statistical Inference.md",
-    "Notes/Analyse de données - Notes.md",
-    "Statistique descriptive.md",
-    "Unexplained.md",
+    "Recuperer son compte.md",
+    "Notes/Modelisation - Notes.md",
     "ZZZ - Dump.md",
-    "Daily Notes/2023-01-10.md",
-    "Daily Notes/2023-01-11.md",
+    "Notes/PPIL - Notes.md",
     "Notes/Programmation Fonctionnelle - Notes.md",
     "Notes/Reseau 2 - Notes.md",
-    "Notes/Compilation - Notes.md"
+    "Notes/Compilation - Notes.md",
+    "Notes/Analyse de données - Notes.md",
+    "Statistical Inference.md",
+    "Statistique descriptive.md"
   ]
 }
