@@ -37,4 +37,6 @@ Un puit est un sommet p appartenent a V tel que gamma+(p) = {ensemble vide}
 
 Theoreme 1.4: Dans un DAG, il existe au moins une source et un puit.
 
-Preuve: Supposons le contraire. On part d'un sommet quelconque s. Comme s n'est pas un puit, 
+Preuve: Supposons le contraire. On part d'un sommet quelconque s. Comme s n'est pas un puit, alors s possede un voisin "sortant" s1. Comme s1 n'est pas un puit, alors s1 possede un voisin "sortant" s2. Comme le nombre de sommets est fini, on est oblige de boucler a un moment donné.
+Or G est un DAG. = Contradiction.
+
