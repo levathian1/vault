@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Analyse de données - Notes.md",
+                "file": "Notes/Modelisation - Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "53c653f3b9d52914",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Modelisation - Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "29b8f34b38de579e",
             "type": "leaf",
             "state": {
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,8 +204,10 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "53c653f3b9d52914",
+  "active": "48dc64c96746bbbb",
   "lastOpenFiles": [
+    "Unexplained.md",
+    "Notes/Analyse de données - Notes.md",
     "Recuperer son compte.md",
     "Notes/Modelisation - Notes.md",
     "ZZZ - Dump.md",
@@ -225,8 +215,6 @@
     "Notes/Programmation Fonctionnelle - Notes.md",
     "Notes/Reseau 2 - Notes.md",
     "Notes/Compilation - Notes.md",
-    "Notes/Analyse de données - Notes.md",
-    "Statistical Inference.md",
-    "Statistique descriptive.md"
+    "Statistical Inference.md"
   ]
 }

@@ -44,3 +44,40 @@ On obtient un autre algorithme pour trouver un tri topologique: tant qu'il exist
 Defintion 1.6: (rang)
 Dans un DAG, le rang d'un sommet u est la longueur du **plus long chemin** arrivant en u.
 Recursivement: rang(u) = 0 si u est une source. rang(u) = 1+max{rang(v) | (v, u) appartient a E}
+Pour calculer le rang, il suffit de calculer le rang dans l'ordre donné par un tri topologique
+exemple: la plus longue sous-suite strictement croissante dans 5, 2, 8, 6, 3, 6, 9, 7
+
+#### 1.3.2 Chemins dans le DAG
+Theoreme 1.5: Soit G un DAG muni d'un tri topologique. Soit u un sommet de G. Le plus court chemin T[v] (en nombre d'aretes) entre u et v peut-etre calculé comme suit:
+	- T[u] = 0
+	- T[v] = 1+min{T[w] | (w, v) appartient a E}
+On initialise T a +inf et on evalue T dans l'ordre donné par un tri topologique.
+
+Theoreme 1.6: Soit G un DAG muni d'un tri topologique. Soit u un sommet de G. Le plus long chemin T[v] (en nombre d'aretes) entre u et v peut-etre calculé comme suit:
+	- T[u] = 0
+	- T[v] = 1+max{T[w] | (w, v) appartient a E}
+On initialise T a -1 et on calcule T dans l'ordre donné par un tri topologique.
+
+
+## Chap 2
+
+### 2.1 Numerotation des sommets
+On peut distinguer les sommets par 3 couleurs:
+	- blanc quand ils n'ont pas encore été vus
+	- gris quand ils sont en cours de traitement
+	- noir quand ils ont finis d'etre traités
+graphe p7-8
+
+Theoreme 2.1: 
+	- Soit u un sommet. Le sommet v sera visite au cours de l'appel recursif de dfs(u) si et seulement si il existe un chemin de u a v constitué **uniquement de sommets blancs** (u et v compris) au moment ou dfs(u) est appelé. 
+	- En particulier, si debut[u] < debut[v] et fin[u] > fin[v], alors il existe un chemin de u a v.
+
+add global d, global f to dfs
+
+Corollaire 2.2: Dans un DAG, s'il existe une arete de u a v, alors fin[u] > fin[v]
+Preuve: deux cas:
+	- debut[v] < debut[u]. Par contradiction, si fin(v) > fin(u), alors on aurait un chemin de v a u et donc un cycle
+	- debut[u] < debut[v]. Au moment de l'appel a dfs[u], il existe une arete de u a v, qui sont tous les deux **blancs**, donc un chemin blanc entre u et v et donc v va etre visité lors de l'appel dfs(u) ce qui implique que fin[u] > fin[v]
+
+### 2.2 Classification des aretes
+Theoreme 2.3: G un DAG, s un sommet. Soit V' l'ensemble des sommets qui deviennent noirs a l'appel de dfs(s). E' l'ensemble des aretes qui ont conduit a un appel de dfs(w). Alors G' = (V', E') est un **arbre**, ou les fleches pointent a l'opposé de s(racine) . Si on appelle dfs sur tout les sommets non visités, les aretes forment une foret.
