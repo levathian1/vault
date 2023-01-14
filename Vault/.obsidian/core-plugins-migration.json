@@ -7,7 +7,11 @@
   "outgoing-link": true,
   "tag-pane": true,
   "page-preview": true,
+<<<<<<< HEAD
   "daily-notes": true,
+=======
+  "daily-notes": false,
+>>>>>>> origin/main
   "templates": true,
   "note-composer": true,
   "command-palette": true,
