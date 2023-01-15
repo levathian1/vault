@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Modelisation - Notes.md",
+                "file": "Modifier les informations du compte.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recuperer son compte.md",
+                "file": "Modifier les informations du compte.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "da8592b3d6648ad8",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Modelisation - Notes.md",
+                "file": "Modifier les informations du compte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Modelisation - Notes.md",
+                "file": "Modifier les informations du compte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Modelisation - Notes.md"
+                "file": "Modifier les informations du compte.md"
               }
             }
           },
@@ -206,10 +205,10 @@
   },
   "active": "48dc64c96746bbbb",
   "lastOpenFiles": [
+    "Notes/Modelisation - Notes.md",
     "Unexplained.md",
     "Notes/Analyse de données - Notes.md",
-    "Recuperer son compte.md",
-    "Notes/Modelisation - Notes.md",
+    "Modifier les informations du compte.md",
     "ZZZ - Dump.md",
     "Notes/PPIL - Notes.md",
     "Notes/Programmation Fonctionnelle - Notes.md",
