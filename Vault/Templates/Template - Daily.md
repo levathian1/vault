@@ -13,15 +13,11 @@ Date: {{date:MMM dd, YYYY}}
 
 # Action items
 ## Daily Tasks
-- [ ] Emails
-- [ ] Look for jobs / work placements
 - [ ] Chess Game
 - [ ] Leetcode/Codeforces Question
-- [ ] Rust book Function
+- [ ] osu 5 maps each mode
 - [ ] Japanese
 - [ ] Composing
 - [ ] Drawing (Theme: Buildings)
-- [ ] Blender de_dust2
-- [ ] Research Paper Reading
-- [ ] Book Reading
+- [ ] Blender - de_dust2
 - [ ] CSDM
