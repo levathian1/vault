@@ -13,7 +13,7 @@ Scénario normal:
 	2.4 L'utilisateur met à jour sa photo de profil
 3. L'utilisateur clique sur le bouton "valider les changements
 4. AmisGo effectue des vérifications quant à la validité des nouvelles informations saisies.
-5. AmisGo prompte l'utilisateur à saisir son (ancien dans le cas où 2.1) mot de passe afin d'enregistrer les changements
+5. AmisGo prompte l'utilisateur à saisir son (ancien dans le cas 2.1) mot de passe afin d'enregistrer les changements
 6. AmisGo enregistre les informations.
 7. La page de modification est alors rafraichie et l'utilisateur peut maintenant voir la page avec les nouvelles informations.
 8. L'utilisateur est prevenu des changements par mail
