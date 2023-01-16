@@ -7,7 +7,7 @@
 ## Programming:
 Game Off:
 Steam Market Price Grabber:
-- [ ] Monthly Price Grabbing 📅 2023-01-15
+- [ ] Monthly Price Grabbing 📅 2023-02-26
 - [ ] GUI
 Picture Conversion:
 - [x] Algo to block and simplify colours 📅 2022-11-12 ✅ 2022-11-02

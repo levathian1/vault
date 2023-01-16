@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unexplained.md",
+                "file": "Notes/Compilation - Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "48dc64c96746bbbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modifier les informations du compte.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62c1b48e56b7c27c",
+            "id": "931d6de889d2757e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "29b8f34b38de579e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modifier les informations du compte.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#lexicale",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modifier les informations du compte.md",
+                "file": "Notes/Compilation - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modifier les informations du compte.md",
+                "file": "Notes/Compilation - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modifier les informations du compte.md"
+                "file": "Notes/Compilation - Notes.md"
               }
             }
           },
@@ -203,17 +179,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "48dc64c96746bbbb",
+  "active": "88e4c96c19c616de",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Modifier les informations du compte.md",
-    "Notes/Modelisation - Notes.md",
+    "ZZZ - Dump.md",
+    "Notes/Compilation - Notes.md",
     "Unexplained.md",
     "Notes/Analyse de données - Notes.md",
-    "ZZZ - Dump.md",
-    "Notes/PPIL - Notes.md",
-    "Notes/Programmation Fonctionnelle - Notes.md",
-    "Notes/Reseau 2 - Notes.md",
-    "Notes/Compilation - Notes.md"
+    "Modifier les informations du compte.md",
+    "Complete Tasklist.md",
+    "Project List.md",
+    "conflict-files-obsidian-git.md",
+    "Notes/Modelisation - Notes.md",
+    "Notes/PPIL - Notes.md"
   ]
 }

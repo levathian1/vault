@@ -1,3 +1,3 @@
 latex addon
 
-fonctionqlite
+docs inside obsidian https://developers.google.com/docs/api/how-tos/overview
