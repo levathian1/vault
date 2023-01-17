@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "1a838d779666cb6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Artificial Intelligence A Modern Approach - Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfdc916870cb68e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unexplained.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "88e4c96c19c616de",
             "type": "leaf",
             "state": {
@@ -43,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Programmation Fonctionnelle - Notes.md",
+                "file": "Notes/Artificial Intelligence A Modern Approach - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Programmation Fonctionnelle - Notes.md",
+                "file": "Notes/Artificial Intelligence A Modern Approach - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Programmation Fonctionnelle - Notes.md"
+                "file": "Notes/Artificial Intelligence A Modern Approach - Notes.md"
               }
             }
           },
@@ -178,17 +203,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "333d30b1c0be33ce",
+  "active": "1a838d779666cb6e",
   "lastOpenFiles": [
     "Unexplained.md",
+    "Notes/Artificial Intelligence A Modern Approach - Notes.md",
+    "Notes/Programmation Fonctionnelle - Notes.md",
     "Notes/Analyse de données - Notes.md",
     "Complete Tasklist.md",
     "ZZZ - Dump.md",
     "Notes/Compilation - Notes.md",
     "Modifier les informations du compte.md",
     "Project List.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Modelisation - Notes.md",
-    "Notes/PPIL - Notes.md"
+    "conflict-files-obsidian-git.md"
   ]
 }

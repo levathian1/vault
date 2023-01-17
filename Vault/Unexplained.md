@@ -11,3 +11,8 @@ Mathematics for Machine Learning:
 	- Bayesian interpretation (degree of belief)
 	- Frequentist interpretation
 	- p183
+Artificial Intelligence A Modern Approach:
+	- Allen Newell, Herbert Simon 1961- General Problem Solver (GPS)
+	- Cognitive science
+	- Wilson and Keil 1999
+	- syllogisms

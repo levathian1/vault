@@ -190,3 +190,5 @@ tous les operateurs peuvent etre redefinis
 let x = Fin 1
 let y = (Encore(Fin 1, Fin 4)
 
+open(Liste) ouvrir bib liste
+
