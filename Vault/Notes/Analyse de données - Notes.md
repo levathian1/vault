@@ -170,3 +170,37 @@ diap 9/10:  (1)comment le choix des classes est-il fait, (2)comment sont determi
 diap 55: important -> Souvent, cette hypothèse est le contraire ce que l’on cherche à prouver (raisonnement par l’absurde)
 diap 60: overlap entre les deux courbes = zone de confusion
 
+# 16/01/2023
+
+## Regression lineaire simple et multiple
+
+#### Regression lineaire simple
+Regarder la correlation entre les deux variables
+Repondre a des questions (cf diap5)
+Lien entre variable x et y
+	Reponse:
+		- Visualisation des points
+Regression lineaire: ajustement d'une droite au nuage statistique d'une serie de couples de donnees (droite representee par equation lineaire des points, avec ajustement pour tracer un chemin moyen passant par le plus de points possibles)
+epsilon = ajout de bruit dans le trace de la droite (erreurs d'ajustement du modele), difference d'ajustement du point vers la droite (ecart point, droite en hauteur)
+#### Estimation des parametres beta0, beta1, epsilon
+Pour estimer beta0, beta1:
+	- Methode des moindres carres
+	- Methode du maximum de vraisemblance
+b0 depend de b1
+Intercept = b0
+coutPub val = b1
+
+nb 30 prove par calcul, n'est pas une valeur arbitraire (diap 21)
+
+Intercep contient 0 = on ne peut pas rejeter beta0 = 0, donc on ne peut pas rejeter H0
+
+Fisher test: value after 1 = Residuelle
+
+### Regression lineaire multiple
+But:
+	- Modelisation
+	- Prevision
+diap 40: p = nombre de regressions
+Regarder rsquared ajusted pour rejeter un modele
+
+
