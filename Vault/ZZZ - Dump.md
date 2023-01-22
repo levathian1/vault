@@ -4,9 +4,9 @@ docs inside obsidian https://developers.google.com/docs/api/how-tos/overview
 
 translate 
 
-Maquette: supprimer un ami
-noter un trajet (participant)
-ajouter un ami au groupe
+Maquette: supprimer un ami done
+noter un trajet (participant) done
+ajouter un ami au groupe done
 
 
 contraintes formulaire:
