@@ -1,4 +1,7 @@
 
+# Links
+https://en.wikipedia.org/wiki/Hypergraph
+
 # 13/01/2023
 
 ## Chap 1
@@ -80,4 +83,84 @@ Preuve: deux cas:
 	- debut[u] < debut[v]. Au moment de l'appel a dfs[u], il existe une arete de u a v, qui sont tous les deux **blancs**, donc un chemin blanc entre u et v et donc v va etre visité lors de l'appel dfs(u) ce qui implique que fin[u] > fin[v]
 
 ### 2.2 Classification des aretes
-Theoreme 2.3: G un DAG, s un sommet. Soit V' l'ensemble des sommets qui deviennent noirs a l'appel de dfs(s). E' l'ensemble des aretes qui ont conduit a un appel de dfs(w). Alors G' = (V', E') est un **arbre**, ou les fleches pointent a l'opposé de s(racine) . Si on appelle dfs sur tout les sommets non visités, les aretes forment une foret, appelee foret d'exploration du graphe.
+Theoreme 2.3: Soit s un sommet. Soit V' l'ensemble des sommets qui deviennent noirs a l'appel de dfs(s). E' l'ensemble des aretes qui ont conduit a un appel de dfs(w). Alors G' = (V', E') est un **arbre**, ou les fleches pointent a l'opposé de s(racine) . Si on appelle dfs sur tout les sommets non visités, les aretes forment une foret, appelee **foret d'exploration** du graphe.
+
+On classifie en 4 categories les aretes du graphe d'origine:
+	- arete(u, v) de l'arbre qui a permis de visiter de nouveau sommets lors de l'exploration
+	- arete avant (u, v) telle que (u, v) n'est pas une arete de l'arbre d'exploration, v est un descendant de u **dans la foret** => v est noir au moment ou l'arete (u, v) est traitee (vert sur pdf)
+	- arete arriere (u, v) telle que u est un descendant de v dans la foret. v est gris au moment ou l'arete (u, v) est traitee (bleu sur pdf)
+	- arete croisee (u, v) telle que u n'est pas descendant de v et v n'est pas descendant de u, dans la foret. v est noir au moment ou (u, v) est traitee et debut[v] < debut[u] (rouge sur pdf)
+
+Theoreme 2.4: Un graphe est un DAG si et seulement si le DFS ne rencontre **aucune arete arriere**
+On peut simplifier un graphe en regroupant ensemble les **composantes fortement connexes** => utilite: on obtient ainsi un DAG
+
+# 17/01/2023
+
+### 2.3 Composantes fortement connexes
+Definition 2.1: Un graphe est fortement connexe si pour tous sommets u et v de G, il existe un chemin de u vers v dans G.
+Une composante fortement connexe de G est un **sous-graphe maximal** fortement connexe de G 
+u et v appartienent a la meme composante fortement connexe si et seulement si il existe un chemin de u vers v et un chemin de v vers u dans G (soit un cycle passant par u et v)
+
+Definition 2.2: Soit G un graphe, le graphe reduit Gr de G est le graphe dont les sommets sont les composantes fortement connexes de G et il existe une arete de S a T dans Gr si et seulement si il existe s appartenant a S et t appartenant a T tels que (s, t) appartient a E.
+
+Theoreme 2.5: Le graphe reduit est sans circuit.
+	Preuve: Soit S1, S2, ..., Sn = S1 un circuit dans le graphe reduit
+	Il existe s1 appartenant a S1 et t1 appartenant a S2 tel que  (s1, t1) appartient a E
+	Il existe s2 appartenant a S2 et t2 appartenant a S3 tel que (s2, t2) appartient a E
+	...
+	Il existe sn-1 appartient a Sn-1 et tn-1 appartient a Sn = S1 tels que (sn-1, tn-a) appartient a E
+	Donc s1 et t1 sont dans la meme composante fortement connexe => contradiction
+
+Comment calculer les composantes fortement connexes?
+Theoreme 2.6: 
+	1. effectuer un DFS en numerotant les sommets par ordre suffixe(quand ils deviennent noirs)
+	2. effectuer un DFS sur le graphe mirroir G' = (V', E') (V= V' et (u,v) appartient a E <=> (v, u) appartient a E') en procedant dans **l'ordre inverse** de l'ordre suffixe
+		Chaque arbre de la foret d'exploration du second DFS est un composante fortement connexe
+
+
+### 2.4 Fermeture transitive
+Definition 2.3: La fermeture transitive d'un graphe G=(V, E) est le graphe Gbarre = (V', E') V' = V, (u, v) appartient a E' si et seulement si il existe u = u0, un dans V tels que u0, un appartient a E
+
+Calcul de la fermeture transitive:
+	Algo le plus simple: T[u, v, k] = True si et seulement si il existe un chemin de u a v dans G de longueur exactement k
+	T[u, v, 1] = True ssi (u, v) appartient a E
+	T[u, v, k] = OU (pour tout les w appartenant a V) T[u, w, k-1] et T[w, v, 1]
+	W[u, v] = OU (pour k < n) T [u, v, k]
+	Un autre algo: avec le graphe reduit
+		1. Calculer le graphe reduit de G
+		2. Calculer la fermeture transitive Gbarre(r)de Gr
+		3. Il existe une arete de u a v dans Gbarre ssi il existe une arete de la composante fortement connexe de u a la composante fortement connexe de v dans Gbarre(r)
+Calculer la fermeture transitive du graphe Gbarre(r), ie un DAG
+	On calcule L[u] : l'ensemble des sommets v atteignables a partir de u
+		L[u] = Union (v appartient a delta+(u)) L[u] union delta+(u)
+	et peut se calculer dans l'ordre inverse donne par un tri topologique
+	Complexite: O(mn)
+
+## Chap 3
+### 3.1
+Definition 3.1: Un graphe pondere est un graphe G = (V, E) muni d'une fonction c: E -> R qui associe a chaque arete e un cout c(e)
+Le cout d'un chemin constitue des aretes e1, e2, ..., en est somme(i) c(ei)
+Principe d'optimalite de Bellman:	
+	Theoreme 3.1: Soit s = u0, u1, ..., un = t le CCM de s a t dans G = (V, E) pondere. Alors pour tout i, u0, u1, ..., ui est un CCM de s a t
+Notons T[u] le cout du CCM entre s et u
+Theoreme 3.2: Il existe (u, v) appartient a E => T[u] + c(u, v)
+En fait on a:
+	T[v] = min {T[u] + c(u, v) | u appartient a delta-(v)}
+
+Algo de Ford:
+	Tant qu'il existe une arete (u, v) tel que T[v] > T[u] + c(u, v) alors faire T[v] <- T[u] + c(u, v)
+Algo revisite:
+	Tpow(k) [u]: le cout du CCM entre s et u de longueur <= k
+	T[u] = Tpow(n-1)[u] 
+	pour tout k entre 0 et n-1:
+		Tpow(k)[s] = 0
+		pour tout u != s:
+			Tpow(k) [v] = min (u appartient a delta-[v]) Tpow(k-1)[u] c(u, v)
+On peut encore ameliorer:
+	1. on peut arreter des que l'on stagne (Tpow(k-1) = Tpow(k))
+	2. a l'etape k, il suffit de considerer les sommets u qui sont successeurs de sommets qui ont change de valeur a l'etape k-1 (les autres ne bougeront pas)
+
+Algo de Bellman (sur DAG):
+Theoreme 3.3: si G est un DAG, le cout du CCM entre s et t peut se calculer par la formule: 
+						T[v] = min {T[u] + c(u, v) | u appartient a delta-(v)}
+en evaluant les sommets dans l'ordre d'un tri topologique

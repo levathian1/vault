@@ -93,3 +93,102 @@ bonne def de somme_aux:
 aux n'existe que dans la fonction somme et plus globalement
 
 
+# 17/01/2023
+Variants  = type algebrique
+
+type somme = entier et boolean (type union en c)
+type produit = struct en c
+
+## Type produit
+fst renvoi partie gauche couple
+snd renvoi partie droite couple
+
+transformer pair en arguments multiples:
+	let pair2args f = let g x y = f(x, y)in g
+ou let pair2args f = fun x y -> f(x, y)
+ou let pair2args f x y = f(x, y)
+
+## Type somme
+Jamais utiliser les memes noms dans les constructeurs
+
+different du switch en C, on regarde la construction de l'objet
+
+function pattern match, mais pas fun
+
+exemple type qui peut renvoyer rien:
+	type peutetreunentier = Entier of int | Rien;;
+	let x = Entier 4
+	let y = Entier 8
+	let z = Rien
+	peutetreunentier -> peutetreunentier -> peutetreunentier
+	let somme x y = match x with
+		 Entier X -> match y with 
+				 Entier Z -> X+Z	
+				 Rien A -> Rien
+		 Rien  Y-> Rien
+	solution:
+		let somme a b = match a with
+		| Rien -> Rien
+		| Entier n -> match b with
+			| Rien -> Rien
+			| Entier m -> Entier (n + m)
+	let somme a b = match(a, b) with
+		(Entier n, Entier m) -> Entier (n+m)
+		(Rien, Entier m) -> Rien
+		(Entier n, Rien) -> Rien
+		(Rien, Rien) -> Rien
+	let somme a b = match(a, b) with
+		(Entier n, Entier m) -> Entier (n+m)
+		_ -> Rien                                            # cas par defaut
+
+diap 15: ou est un et
+diap 16: les variables nommees ne sont pas les memes si elles sont dans le match ou en dehors
+
+Dans d'autres langages: combiner struct et union
+
+
+let x = Fin
+let y = Encore (2, Fin) 
+let z = Encore (1,  y)
+
+let longueur x = match x with
+	| Nul -> 0
+	| Cons y -> 1+ longueur y
+Solution:
+	let rec longueur l = match l with
+		| Nul -> 0
+		| Cons(x, l') -> 1 + longueur l'
+	let rec longueur l = match l with
+		| Nul -> 0
+		| Cons( _ , l') -> 1 + longueur l'
+	let rec aux l somme = match l with
+		| Nul -> somme
+		| Cons(x, l') -> aux l' (somme+1)
+	let longueur l = aux l 0
+
+n a 1
+
+
+let rec range n = match n with
+	| 1 -> nul
+	| _ -> cons(n, l) range (n-1)
+Solution:
+	let rec range n = 
+		if n = 0 then Nul
+		else Cons(n, range(n-1))
+	let range n = 
+		let rec aux m l = 
+			if m = 0 then l
+			else aux (m-1) (Cons(m, l)) in aux n Nul
+
+Recursion terminale necessaire a partir d'un million d'elements
+
+|> envoi de l'objet de gauche a droite
+
+tous les operateurs peuvent etre redefinis
+
+let x = Fin 1
+let y = (Encore(Fin 1, Fin 4)
+
+open(Liste) ouvrir bib liste
+
