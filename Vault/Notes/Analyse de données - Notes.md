@@ -203,4 +203,17 @@ But:
 diap 40: p = nombre de regressions
 Regarder rsquared ajusted pour rejeter un modele
 
+# 18/01/2023
+
+Analyse Composantes Principales: tableaux de donnees rectangulaires avec individus en lignes et variables quantitatives en colonnes
+
+Objectifs:
+	- Etude des individus
+	- Etude des variables
+
+Representation sous forme de p dimensions (p = nombre de variables utilises)
+
+inertie = variance = dispersion
+
+valeur propre de matrice: scalaire obtenu dans le calcul A * x = lambda * x (eigen value)
 

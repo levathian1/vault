@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Machine Learning from Scratch - Notes.md",
+                "file": "ZZZ - Dump.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "da8592b3d6648ad8",
@@ -158,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Machine Learning from Scratch - Notes.md",
+                "file": "ZZZ - Dump.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Machine Learning from Scratch - Notes.md",
+                "file": "ZZZ - Dump.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Machine Learning from Scratch - Notes.md"
+                "file": "ZZZ - Dump.md"
               }
             }
           },
@@ -229,15 +230,15 @@
   },
   "active": "922ee95d4af1a1e8",
   "lastOpenFiles": [
+    "Notes/Analyse de données - Notes.md",
+    "Notes/Machine Learning from Scratch - Notes.md",
     "Notes/Programmation Fonctionnelle - Notes.md",
     "Notes/Artificial Intelligence A Modern Approach - Notes.md",
     "Unexplained.md",
-    "Notes/Analyse de données - Notes.md",
     "Complete Tasklist.md",
     "ZZZ - Dump.md",
     "Notes/Compilation - Notes.md",
     "Modifier les informations du compte.md",
-    "Project List.md",
-    "conflict-files-obsidian-git.md"
+    "Project List.md"
   ]
 }
