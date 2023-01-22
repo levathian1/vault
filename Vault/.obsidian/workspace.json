@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e129b2bdb5b86c87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -159,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZZZ - Dump.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZZZ - Dump.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ZZZ - Dump.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -228,15 +240,15 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "922ee95d4af1a1e8",
+  "active": "e129b2bdb5b86c87",
   "lastOpenFiles": [
+    "ZZZ - Dump.md",
     "Notes/Analyse de données - Notes.md",
     "Notes/Machine Learning from Scratch - Notes.md",
     "Notes/Programmation Fonctionnelle - Notes.md",
     "Notes/Artificial Intelligence A Modern Approach - Notes.md",
     "Unexplained.md",
     "Complete Tasklist.md",
-    "ZZZ - Dump.md",
     "Notes/Compilation - Notes.md",
     "Modifier les informations du compte.md",
     "Project List.md"
