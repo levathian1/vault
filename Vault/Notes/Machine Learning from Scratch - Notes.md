@@ -13,3 +13,12 @@ testing dataset      -> evaluate final model
 
 modeling tasks = regression if target is quantitative (not necessarily ordinary least squares linear regression)
 						 = classification if target is categorical
+
+## Linear regression
+
+a variable y follows predictor variables x1 through xd, accounting for error rho
+
+### Extensions
+- Regularized Regression
+- Bayesian Regression
+- GLM

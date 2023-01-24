@@ -16,3 +16,6 @@ Artificial Intelligence A Modern Approach:
 	- Cognitive science
 	- Wilson and Keil 1999
 	- syllogisms
+
+https://openclassrooms.com/fr/courses/4525281-realisez-une-analyse-exploratoire-de-donnees/5280031-representez-les-individus-sur-les-plans-factoriels
+

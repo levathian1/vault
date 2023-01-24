@@ -1,4 +1,5 @@
-
+- Edward
+- Saladin
 - Totoro
 - Athena
 - Benetton
@@ -112,3 +113,24 @@
 - https://www.myminifactory.com/object/3d-print-ford-fiesta-rs-wrc-41514
 - MMF - Mini Mechanica
 - https://www.thingiverse.com/thing:2657310
+- Terra from FF
+- a
+- Chibi Amaterasu - Mini
+- a
+- Chibi Pochita - Mini
+- a
+- Malenia - Glass
+- a
+- Cthulhu - Model
+- a
+- Power - Model
+- a
+- Alucard - Model
+- a
+- Ashitaka - Model
+- a
+- Fire Keeper - Glass
+- a
+- Chibi Great Grey Wolf Sif - Mini
+- a
+- Chibi Baby Skybison - Mini
