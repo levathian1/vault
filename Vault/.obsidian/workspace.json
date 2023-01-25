@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "a06af7a1747126f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1a838d779666cb6e",
             "type": "leaf",
             "state": {
@@ -217,15 +229,15 @@
   },
   "active": "1b64d0ba9f8df30f",
   "lastOpenFiles": [
-    "Papers/Papers to read.md",
+    "conflict-files-obsidian-git.md",
     "Notes/Compilation - Notes.md",
+    "Papers/Papers to read.md",
     "Papers/Chaos due to symmetry-breaking in Deformed Poisson Ensemble.md",
     "Notes/Artificial Intelligence A Modern Approach - Notes.md",
     "Unexplained.md",
     "Notes/Machine Learning from Scratch - Notes.md",
     "Paint list.md",
     "Modifier les informations du compte.md",
-    "Project List.md",
-    "Complete Tasklist.md"
+    "Project List.md"
   ]
 }
