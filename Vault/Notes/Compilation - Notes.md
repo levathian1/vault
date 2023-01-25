@@ -114,9 +114,20 @@ Table des symboles:
 		- Ajouter declaration de variable et lui donner un deplacement -> void ajouter(String idf)
 			A chaque rencontre avec une nouvelle variable qui n'est pas deja presente dans la table, lors du parcours de l'analyseur syntaxique (classe ASynt)
 		- Consulter la table -> int identifier(String idf)
-			Lors de la construction de l'arbre semantique et lors d'un ajout de variable par l'analyseur syntaxique pour verifier que la variable n'a pas deja ete declaree au paravant (classe variable)
+			Lors de la construction de l'arbre semantique (classe variable)
 			Si la variable n'est pas repertoriee dans la table: gestion d'erreur a faire
 		- int getTailleZoneVariables()
 			Dans la classe responsable de la generation du code afin de definir le deplacement maximal necessaire a prevoir
 		- TDS()
-	 
+	 Analyseur syntaxique va faire de la detection d'erreur semantique (double declaration de variables)
+	 2 champs dans la classe et le singleton
+	Ajout de booleens:
+		- La taille de deplacement de variable est propre au type de variable rencontre
+		- Verification -> identification du type et verification que la valeur attribuee correspond au type (bool = int en memoire)
+		- ajouter fait correspondre l'identificateur au type -> ajouter(String idf, Symbole s)
+		- Symbole identifier(String idf)
+	void Verifier(){
+		Symbole s = identifier(var);
+		typeGauche.equals(typeDroit)
+		typeGauche.concordeAvec(typeDroit)
+	}

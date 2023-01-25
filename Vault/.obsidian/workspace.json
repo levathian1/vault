@@ -35,12 +35,8 @@
             "id": "a06af7a1747126f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -227,7 +223,7 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "1b64d0ba9f8df30f",
+  "active": "31b8b888d3ed1e1b",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Notes/Compilation - Notes.md",
