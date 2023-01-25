@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers to read.md",
+                "file": "Papers/Papers to read.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,9 +23,11 @@
             "id": "1b64d0ba9f8df30f",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.md"
+                "file": "Notes/Compilation - Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -76,40 +78,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "931d6de889d2757e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ZZZ - Dump.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "922ee95d4af1a1e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ZZZ - Dump.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e129b2bdb5b86c87",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers to read.md",
+                "file": "Notes/Compilation - Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers to read.md",
+                "file": "Notes/Compilation - Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers to read.md"
+                "file": "Notes/Compilation - Notes.md"
               }
             }
           },
@@ -244,17 +215,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false
     }
   },
-  "active": "333d30b1c0be33ce",
+  "active": "1b64d0ba9f8df30f",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Papers to read.md",
+    "Papers/Papers to read.md",
+    "Notes/Compilation - Notes.md",
+    "Papers/Chaos due to symmetry-breaking in Deformed Poisson Ensemble.md",
+    "Notes/Artificial Intelligence A Modern Approach - Notes.md",
     "Unexplained.md",
     "Notes/Machine Learning from Scratch - Notes.md",
     "Paint list.md",
     "Modifier les informations du compte.md",
     "Project List.md",
-    "Complete Tasklist.md",
-    "Complete Tasklist + Routines.md",
-    "Notes/Programmation Fonctionnelle - Notes.md"
+    "Complete Tasklist.md"
   ]
 }

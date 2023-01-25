@@ -94,10 +94,29 @@ Manque expression a type non terminal ArbreAbstrait sur diap JavaCup
 ### Automatisation de la construction du compilateur
 Etapes de construction:
 	1. Creation de l'analyseur syntaxique
-	2. Creation de l'analyseyr lexical
+	2. Creation de l'analyseur lexical
 	3. Compilation de l'ensemble de classes
 
 Utilisation de ant (another neat tool):
 	- Automatisation de la construction de projets 
 	- make de java
 
+# 25/01/2023
+
+Table des symboles:
+	Informations dans la table:
+		- Deplacement (addresse memoire) initial
+		- Nom de chaque variable
+		- Taille du bloc d'allocation en memoire
+	Fonctions de TDS (singleton):
+		- (Initialiser table
+		- Calcul de la taille du bloc d'allocation en memoire)
+		- Ajouter declaration de variable et lui donner un deplacement -> void ajouter(String idf)
+			A chaque rencontre avec une nouvelle variable qui n'est pas deja presente dans la table, lors du parcours de l'analyseur syntaxique (classe ASynt)
+		- Consulter la table -> int identifier(String idf)
+			Lors de la construction de l'arbre semantique et lors d'un ajout de variable par l'analyseur syntaxique pour verifier que la variable n'a pas deja ete declaree au paravant (classe variable)
+			Si la variable n'est pas repertoriee dans la table: gestion d'erreur a faire
+		- int getTailleZoneVariables()
+			Dans la classe responsable de la generation du code afin de definir le deplacement maximal necessaire a prevoir
+		- TDS()
+	 
