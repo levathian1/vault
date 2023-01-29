@@ -16,9 +16,9 @@ Website
 - [ ] Home page design📅 2023-02-26
 Game:
 - [x] Scoping: Gokart manager 📅 2022-11-05 ✅ 2022-11-02
-- [ ] Track Loading 📅 2023-01-29
+- [ ] Track Loading 📅 2023-03-05
 Keycap:
-- [ ] Arcade example 📅2023-02-05
+- [ ] Arcade example 3D mockup 📅2023-02-05
 Keyboard:
 - [ ] 3x3 Matrix (handwired)   📅 2023-02-12
 Animation:
