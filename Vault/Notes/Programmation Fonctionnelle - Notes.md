@@ -228,13 +228,13 @@ Proprietes:  - element neutre
 			      - associativite 
 
 let somme = let rec somme_aux i= function
-	| [] -> 0
+	| [] -> i
 	| x::l -> i + somme_aux i l
 	in 
 	somme_aux 0 l
 
 let max = let rec max_aux i = function
-	| [] -> 0
+	| [] -> i
 	| x::l -> if x>i max_aux x l else max_aux i l
 	in
 	max_aux 0 l
