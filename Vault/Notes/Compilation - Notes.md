@@ -24,6 +24,13 @@ Books on ScholarVox:
 	http://univ.scholarvox.com.bases-doc.univ-lorraine.fr/catalog/book/docid/88809585?searchterm=compilers
 	http://univ.scholarvox.com.bases-doc.univ-lorraine.fr/catalog/book/docid/88853434?searchterm=compilers
 
+Vocabulaire:
+	Bloc: suite d'instructions a laquelle il est possible d'attacher une liste de declarations
+	Declaration d'un identificateur: construction qui defini la nature de l'objet designe
+	Portee d'une declaration: partie d'un programme dans laquelle une utilisation de l'identificateur se rapporte a cette declaration
+	Espace de noms: pas de double declaration dans le meme espace, double declaration possible dans deux espaces differents
+	Identification: mecanisme qui consiste a associer une utilisation d'identificateur a la declaration correspondante
+
 # 16/01/2023
 
 ## Comment realiser un compilateur
@@ -131,3 +138,51 @@ Table des symboles:
 		typeGauche.equals(typeDroit)
 		typeGauche.concordeAvec(typeDroit)
 	}
+
+
+# 30/01/2023
+
+## Controles semantiques
+Contraintes:
+	- verifiables par le compilateur
+	- inverifiables par le compilateur -> verifies par du code genere par le compilateur
+
+Typage statique:
+	Association type a un identificateur de variable ou a un retour de fonction
+		- Detecter erreur semantique avant execution
+		- Eliminer information du code cible
+		- Optimiser code cible
+
+Verification:
+	Utiliser declaration pour associer typage et variable et leur conformite
+		Deux etapes:
+			- Identification (retrouver la declaration associees a une variable)
+				- Structure du programme
+				- Presence de plusieurs espace des noms
+			- Construction du type de l'expression
+
+Inference (depuis langages fonctionnels):
+	Compilateur retrouve le type de variables et fonctions a partir de leur usage
+		- Utilise dans langages a typage statique
+
+Langages a structures de blocs:
+	Suite d'instruction clairement identifiee pour structurer un programme, possible d'attacher a des declarations a un block
+		- Bloc sans nom
+			- Aucun control specific
+		- Fonctions, procedures
+
+Espaces de noms:
+	Identificateur peur signifier:
+		- Un seul element
+			- Negatif: Noms differents a tous les elements du code
+			- Positif: Identification sur le nom uniquement
+		- Plusieurs elements
+			- Negatif: Identification sur le nom et l'espace de nom concerne
+			- Positif: Nommage a la guise du programmeur (sur des blocs differents)
+
+Table des symboles
+	- Memoriser les informations des declarations
+		- Variables: nom, type, deplacement en memoire, bloc de declaration
+		- Fonction: profil, bloc de declaration
+	- Association Symbole - Entree
+	- Une entree par espace de nom

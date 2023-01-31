@@ -217,3 +217,27 @@ inertie = variance = dispersion
 
 valeur propre de matrice: scalaire obtenu dans le calcul A * x = lambda * x (eigen value)
 
+# 30/01/2023
+
+## Analyse Factorielle des Correspondances simples
+
+AFC: Methode derivee de ACP adaptee aux tableaux de contiengences et permet d'etudier relations entres deux variables nominales qualitatives (ACP sur quantitatives)
+Les deux variables sont qualitatives
+AFC-M: AFC sur plus de deux variables
+
+Tableaux d'enquetes souvent
+
+Definitions diap 6, 8
+
+Table de contingence
+
+Tab 7: top hebergement
+		  left: modalite
+
+diap 13: sous supposition de variables liees
+
+diap 18: modalite i de X pas de Y
+
+ACP: metrique euclidienne
+
+

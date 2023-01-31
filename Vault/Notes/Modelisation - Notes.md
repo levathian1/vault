@@ -164,3 +164,66 @@ Algo de Bellman (sur DAG):
 Theoreme 3.3: si G est un DAG, le cout du CCM entre s et t peut se calculer par la formule: 
 						T[v] = min {T[u] + c(u, v) | u appartient a delta-(v)}
 en evaluant les sommets dans l'ordre d'un tri topologique
+
+
+### 3.2 Chemin de cout minimal contraint
+On suppose certaines aretes rouges. On s'interesse aux CCM entre s et d qui passent par au plus une arete rouge
+
+Principe d'optimalite de Bellman
+	Theoreme 3.4:
+		Soit s = u0, u1, ..., ul = ; un CCM de s a t utilisant moins au plus une arete rouge
+		Pour tout i appartenant a {0, 1, ..., n}, in a le chemin de u0, ..., uk est un CCM de s a uk pour ceux qui n'utilisent pas plus d'aretes rouges que u0 -> ui
+
+Ce principe d'optimatlite conduit a:
+	- T0[u] est le CCM entre s et u qui n'utilise aucune arete rouge
+	- T1[u] utilise exactement une arete rouge
+
+Theoreme 3.5
+	T0[v] = min{T0[u] + c(u, v) | u appartient a gamma-(v) est une arete non rouge}
+	T1[v] = min{min{T0[u] + c(u, v) | u appartient a gamma-(v) est une arete rouge}, T1[u] + c(u, v) | u appartient a gamma-(v) est une arete non rouge}	
+
+### 3.3 Chemin de cout minimal contraint
+On se place: des couts sur les aretes. on ajoute des ressources
+
+Choisir une arete engendre un consommation de ressources r(e)>= 0
+plusieurs types de contraintes
+	- Contraintes finales: sur la quantite totale de ressources utilisees
+	- Contraintes par sommets: pour chaque sommet u, deux parametres au et bu on peut passer par u si la consommation de la ressource est entre ai et bi
+
+Theoreme 3.6: Soit s = u0 -> uk = t le CCM de s a t utilisant moins de K ressources. Pour chaque sommet ui du chemin, soit ki la consommation de ressources sur le chemin u0 -> ui
+Pour tout i u0 -> ui est un CCM de s a ui parmi ceux qui n'utilisent pas plus de ki ressources
+
+Principe de Bellman => pour chaque sommet ui, il faut a priori retenir pour chaque valeur k, la valeur de plus petit chemin de s a ui consommant k ressources 
+
+Theoreme 3.7: Soit T[u, k] le CCM de s a u consommant k ressources
+	T[u, k] verifie: 1. T[s, k] = 0
+						   2. T[v, k] = min{T[u, k - r(u, v)] + c(u, v) | u appartient a gamma- (v)}
+
+Definition 3,2:
+	Soit s = u0, u1, ..., ui un chemin
+	L'etiquette du chemin est le couple (c, u) contient le cout du chemin et la consommation de la ressource
+Definition 3.3:
+	Une etiquette E = (c, r) est dominee par une etiquette E = (c', r') si c >= c' et r >= r'
+Soit S un ensemble d'etiquettes. L'ensemble des etiquettes de S qui sont domines par aucune etiquette de S est appelee enveloppe de Pareto de S, notee Env(S)
+
+On ne va retrouver que les etiquettes dominees par aucune.
+
+Theoreme 3.8:
+	Soit S[u] l'ensemble des etiquettes possibles de s a u.
+	T = Env(s) verifie:
+		1. T[s] = {(0, 0)}
+		2. T[v] = Env{Union(T[s] + c(u, v), r(u, v) | u appartient a gamma-(u))}
+
+## Chap 4
+
+Definition 4.1: Un reseau (de flots) N est un graphe G = (V, E) ou chaque arete est munie d'une capacite, c(e).
+Remarque: on ne distinguera pas les aretes de capacite nulle avec les aretes inexistantes
+	- Une fonction de balance est une fonction b: V -> R. Si b(u) > 0 on a que u est sommet d'offre. Si b(u) < 0, alors on dit que u est un sommet de demande.
+	- Un float sur un reseau est une fonction phi: E->R telle que 0 <= phi(e) <= c(e)
+	- On dit que le flot phi satisfait la balance b si en chaque sommet v: Somme(phi(v, u) | u appartenant a gamma+(v)) = Somme(phi(u, v) | u appartenant a gamma-(v)) = b(v)
+	- Une circulation est un float de balance nulle
+	- Un float de s a t est un flot de balance nulle partout sauf pour s et t avec b(s) = -b(t) > 0
+
+### 4.1 Flot max
+#### 4.1.1 Def et graphe residuel
+

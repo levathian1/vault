@@ -192,3 +192,51 @@ let y = (Encore(Fin 1, Fin 4)
 
 open(Liste) ouvrir bib liste
 
+# 31/01/2023
+
+Paradigm map/reduce
+
+## Reduce ('a -> 'a -> 'a) -> 'a -> [ 'a list -> 'a ]
+Construit une fonction
+
+let somme = reduce somme2 0
+let max = reduce max2 0
+
+let reduce func i = 
+	let rec func_new l = function
+		| [] -> i 
+		| x::l -> func x (func_new l)
+Solution:
+let redure f init = 
+	let rec g l = match l with
+		| [] -> init
+		| x::l' -> f x (g l')
+	in g
+ou
+let rec reduce f init l = match l with
+	| [] -> init
+	| x::l' -> f x (reduce f init l')
+ou
+let rec reduce f init l = function
+	| [] -> init
+	| x::l' -> f x (reduce f init l')
+
+mystere1: renvoi le premier element entre x et y 
+mystere2: renvoi 0
+
+Proprietes:  - element neutre
+			      - associativite 
+
+let somme = let rec somme_aux i= function
+	| [] -> 0
+	| x::l -> i + somme_aux i l
+	in 
+	somme_aux 0 l
+
+let max = let rec max_aux i = function
+	| [] -> 0
+	| x::l -> if x>i max_aux x l else max_aux i l
+	in
+	max_aux 0 l
+
+## Folding
